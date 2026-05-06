@@ -27,7 +27,7 @@ El repositorio está organizado de forma modular para separar las herramientas d
 | `📂 /server` | **Server Files** | C++ | Lógica de red, base de datos y validaciones. |
 | `📂 /web` | **Plataforma Web** | PHP 7 / HTML | Registro, Ranking y Panel de administración. |
 | `📂 /patch` | **Client Patch** | Binarios | Parches para conexión IP y Bypass de GameGuard. |
-| `📂 /tools` | **Herramientas** | Varios | Editores de .mrs, .xfs y utilitarios de desarrollo. |
+| `📂 /tools` | **Herramientas** | Varios | Editores de .xfs y utilitarios de desarrollo. |
 
 ---
 
