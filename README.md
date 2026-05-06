@@ -63,4 +63,4 @@ Para conectar con éxito al servidor de desarrollo, sigue estos pasos ubicados e
 Este proyecto se distribuye bajo la licencia **MIT**. Eres libre de usarlo, modificarlo y distribuirlo siempre que mantengas los créditos originales de la comunidad.
 
 ---
-Desarrollado con ❤️ por la comunidad de **GameDev Server**
+Desarrollado con ❤️ por y para la comunidad de **GameDev Server**
