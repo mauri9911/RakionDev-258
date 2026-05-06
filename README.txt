@@ -7,10 +7,6 @@ But that's not a problem if you want to build your own server XD
 
 Below I've included some of the most important thing to have in mind about these files.
 
-* To WebSite, Launcher, Security, Tools, Fixes and Support...
-You can write me at facebook.com/megaboxioso
-or Skype: megaboxioso
-
 
 ////////////////////////////////////////////////////////////////////////////////////
 // ---------------------- Partly Functional Characteristics ----------------------//
