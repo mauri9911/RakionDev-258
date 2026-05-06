@@ -8,12 +8,6 @@ Pero eso no es un problema si deseas armar tu propio servidor XD
 Mas abajo incluyo lo mas Importante a tomar en cuenta sobre estos archivos.
 
 
-* Para Web, Launcher, Seguridad, Herramientas, Arreglos y Soporte.
-
-Puedes escribirme a mi facebook.com/megaboxioso
-o mi Skype: megaboxioso
-
-
 ////////////////////////////////////////////////////////////////////////////////////
 // ------------------ Caracteristicas Parcialmente Funcionales -------------------//
 ////////////////////////////////////////////////////////////////////////////////////
@@ -27,7 +21,7 @@ es de la epoca en donde los colores distintivos no existian.
 - Los clanes no tienen un "fin especifico" mas que solo dar un color amarillo a tu nombre...
 - No hay forma de visualizar a tus miembros desde el menu del juego, agregarlos o expulsarlos.
 - No hay forma de organizar luchas entre clanes y obtener puntos.
-- Por alguna extraÒa razon si puedes visualizar tus puntos de clanes y en que posicion estas.
+- Por alguna extra√±a razon si puedes visualizar tus puntos de clanes y en que posicion estas.
 
 
 NOTA: hacer estas 2 cosas, solo es posible editando directamente la base de datos.
@@ -38,10 +32,10 @@ NOTA: hacer estas 2 cosas, solo es posible editando directamente la base de dato
 ////////////////////////////////////////////////////////////////////////////////////
 
 * Mensajeria (F9):
-- No abre y aun que puedes abrirla con el comando, lo que sea que escribas no llegar· a nadie.
+- No abre y aun que puedes abrirla con el comando, lo que sea que escribas no llegar√° a nadie.
 
 * Refineria:
-- Si intentas refinar, el worldserver se congelar·.
+- Si intentas refinar, el worldserver se congelar√°.
 
 ////////////////////////////////////////////////////////////////////////////////////
 // ----------------- Errores Conocidos dentro del Juego (CLIENTE) ----------------//
