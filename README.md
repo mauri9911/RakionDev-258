@@ -12,7 +12,7 @@
 
 Para poder testear el servidor y colaborar en tiempo real👌, asegúrate de estar conectado a nuestra red de Radmin VPN:
 
-* **Red:** `RakionDev258 user`
+* **Red:** `RakionDev258`
 * **Contraseña:** `123456`
 
 ---
