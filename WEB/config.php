@@ -4,7 +4,7 @@ if(@S_include != "freeclient") exit;
 #MYSQL CONFIG
 define('MYSQL_HOST', "127.0.0.1");
 define('MYSQL_USER', "root");
-define('MYSQL_PASS', "123456");
+define('MYSQL_PASS', "1234567");
 define('MYSQL_NAME', "rakion");
 
 #AUTH CLIENT
