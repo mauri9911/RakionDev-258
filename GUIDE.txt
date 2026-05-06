@@ -1,0 +1,128 @@
+//--- INSTALLATION:
+
+
+1- Download RakionPack
+2- Install Navicat
+3- Install 010_Editor
+4- Install RIS_Ver1026_XfsVer258.exe
+5- Download Xampp
+6- Install Xampp
+
+NOTE:
+I won't show how these programs are installed as they are very simple..
+I'll show you what to do after the installation of xampp completes and
+you open xampp-control panel
+
+7- Open Navicat and set up your connection.
+
+//--- CONFIGURATION (SERVER):
+
+* BrokenServer
+
+1- Go to the folder BrokenServer/Settings.
+2- Open Settings.ini and change IP.
+3- Open GameServers.ini and change IP.
+4- Open BrokenServer.exe
+
+NOTE:
+If you can't open BrokernServer.exe you may have to install
+Microsoft .Net Framework 4.0
+
+* WorldServer
+
+1- Open Navicat.
+2- Make a new Data Base.
+3- Import the rakion_all.sql to you new DB.
+4- Go to the folder WorldServer and open wordlserver.ini
+5- Set up all IP, Mysql Access and your Administrator ID and Password of your Operating System.
+
+NOTE:
+It is very important that your Administrator user have a password... and if you not
+here I'll show you how to do it.
+
+6- Right click on the shortcut "Install Service" and then click on Properties
+7- In the tab "Shortcut" you must set the file location "RakionWorldServ.exe"
+8- Repeat the previous step to Start, Stop and Uninstall
+
+The WorldServer runs as a system service, so the service must be installed
+before you can run it! and for that you must do the following:
+
+Right click on "Install Service" and run as Administrator.
+(The service is installed)
+
+Right click on "Start Service" and run as Administrator.
+(The RakionWorldServ.exe be executed)
+
+If you want to stop the server, you must use "Stop Service" and in case you want to uninstall
+the service must run "Uninstall Service"
+
+
+
+** Completed configuration server.
+
+
+
+
+//--- CONFIGURATION (CLIENT):
+
+
+1- Copy the file rakion.bin and load.bin within the "Patch/(EN/ES)" folder to
+the "Bin" folder where you have installed the rakion.
+
+2- The client needs to be run by the "Load.bin" (which is a special launcher
+that helps to bypass the GameGuard) therefore the original Softnyx Launcher 
+(NyxLauncher.exe) must be edited to open load.bin instead of rakion.bin
+and for this, we must open the "010 Editor" and do this ...
+
+3- Copy the files in the folder "WEB" to the xampp "htdocs" folder
+
+4- Set up your MySQL access data on config.php and fetch.php files.
+
+5- The launcher needs to know if there are new updates or not so we need 
+to configure our fetch.php file.
+
+NOTE:
+Edit Nyxlauncher.ini is very simple to do, at the same time unnecessary
+for this tutorial.
+
+6- In the Tools folder open the iXFS.exe and then open NyxLauncherEnc.xfs 
+to edit the route of our fetch.php and the Port of our BrokenServer
+
+NOTE:
+The iXFS editor has a little trick to extract and read data
+(which until now I have no idea if it was made on purpose or not)
+
+7- The Load.bin in addition to open the game, it first communicates with 
+its web files to know if it have to verify that some important game files 
+have been changed. And for do that we must configure the config.php and file.php files.
+(But unnecessary for this tutorial)
+
+To make you understand better about what file depends on what program:
+
+Nyxlauncher.exe -> fetch.php
+Load.bin -> file.php, launcherlogin.php, config.php
+
+8- Now, our Launcher (Load.bin) needs to know where is its web files! so we need to
+generate its configuration file which holds the path of your website.
+Go to the "Tools" folder and open "GConfig.exe" and type the path to your website
+where your files lie and without "http://" (which for this example would be localhost)
+
+9- Move the generated file (config.xfs) to the "Bin" folder of Rakion
+
+10- Until now everything about the launcher has been completed and now we just have to
+configure the data from our server into the game... and for do this we will open the
+iXFS.exe tool and edit the Datasetup.xfs of Rakion.
+
+11- Open Navicat and create a new user account in the table "user" to be able to login.
+
+12- Run Nyxlauncher.exe and Play!
+
+NOTE:
+The Nyxlauncher not verify that the username and password you entered are valid, so if
+you misspell something, will open the game but you can not enter.
+
+
+And with that we end this tutorial on how to create your Rakion Server v258.
+
+
+
